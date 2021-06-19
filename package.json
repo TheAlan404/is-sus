@@ -1,6 +1,6 @@
 {
   "name": "is-sus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if something is SUS",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/thealan404/is-sus/issues"
   },
-  "homepage": "https://github.com/thealan404/is-sus#readme"
+  "homepage": "https://github.com/thealan404/is-sus#readme",
+  "dependencies": {
+    "string-toolkit": "^1.4.0"
+  }
 }

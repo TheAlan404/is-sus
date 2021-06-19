@@ -9,5 +9,5 @@ const { decancer } = require('string-toolkit');
  */
 module.exports = (value) => {
 	if (typeof value !== "string" || !value.length) throw new TypeError("sussy baka, only strings accepted for now");
-	return /sus|vent|amon?g\s+?us|impost(o|e)r|\u0d9e/i.test(decancer(value).replace(/\s/g, ''));
+	return /sus|vent|amon?gus|impost(o|e)r|\u0d9e|crew(mate)?/i.test(decancer(value).replace(/\s/g, ''));
 };

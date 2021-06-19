@@ -8,5 +8,7 @@ console.log(isSus('sus')); // true
 
 console.log(isSus('amogus')); // true
 
-console.log(isSus('\u0d9e')); // true
+console.log(isSus('ඞ crewmate')); // true
+
+console.log(isSus('ｓｕｓｓｕｓ ａｍｏｇｕｓ')) // true
 ```
